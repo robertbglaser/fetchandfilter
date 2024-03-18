@@ -13,7 +13,6 @@ function App() {
      .then(res =>setData(res))
     
   }
-
   const resetList=()=> {
 
      setDataToRender([])
